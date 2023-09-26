@@ -1,14 +1,35 @@
 // Ejercicio 1: Utilizar un bucle while para imprimir los números del 1 al 5.
 let resultado1 = "";
 // Escribí tu código acá abajo:
+{
+	let i = 1;
+	while (i <= 5) {
+		resultado1 += `${i} `;
+		i++;
+	}
+}
 
 // Ejercicio 2: Utilizar un bucle while para imprimir los números pares del 2 al 10.
 let resultado2 = "";
 // Escribí tu código acá abajo:
+{
+	let i = 1;
+	while (i <= 5) {
+		resultado2 += `${i*2} `;
+		i++;
+	}
+}
 
 // Ejercicio 3: Utilizar un bucle while para imprimir los números impares del 1 al 9.
 let resultado3 = "";
 // Escribí tu código acá abajo:
+{
+	let i = 0;
+	while (i < 5) {
+		resultado3 += `${i*2+1} `;
+		i++;
+	}
+}
 
 // Ejercicio 4: Utilizar un bucle while para calcular la suma de los números del 1 al 5.
 let suma = 0;
@@ -49,14 +70,14 @@ let exponente = 1;
 
 // Exporta las variables para que estén disponibles para otros módulos
 module.exports = {
-  resultado1,
-  resultado2,
-  resultado3,
-  suma,
-  producto,
-  resultado6,
-  indiceBanana,
-  sumaNumeros,
-  resultado9,
-  potencia,
+	resultado1,
+	resultado2,
+	resultado3,
+	suma,
+	producto,
+	resultado6,
+	indiceBanana,
+	sumaNumeros,
+	resultado9,
+	potencia,
 };

@@ -1,6 +1,7 @@
 // Ejercicio 1: Definir una función que calcule el enésimo término de la secuencia de Fibonacci.
 function fibonacci1(n) {
   // Escribí tu código acá abajo:
+  
 }
 
 // Ejercicio 2: Definir una función que devuelva un objeto con las estadísticas de una lista de números.
