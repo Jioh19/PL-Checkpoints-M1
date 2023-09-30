@@ -3,7 +3,7 @@ function esPrimo1(numero) {
 	// Escribí tu código acá abajo:
 	if (numero === 0 || numero === 1 || numero === 4) return false;
 	if (numero === 2 || numero === 3) return true;
-	for (let i = 2; i < Math.sqrt(numero); i++) {
+	for (let i = 2; i <= Math.sqrt(numero); i++) {
 		if (numero % i === 0) return false;
 	}
 	return true;
